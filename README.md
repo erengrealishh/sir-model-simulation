@@ -22,7 +22,7 @@ This app simulates the spread of infectious diseases using the SIR (Susceptible,
 ### TR <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg" alt="Türk Bayrağı" width="20" height="15">
 Bu uygulama, bulaşıcı hastalıkların yayılmasını SIR (Susceptible, Infected, Recovered) modelini kullanarak simüle eder. Genç ve yaşlı nüfuslar için ayrı parametrelerle çalışan simülasyon, kullanıcıların virüs yayılma ve iyileşme oranlarını interaktif olarak ayarlamalarına ve sonuçları gerçek zamanlı görselleştirmelerine olanak tanır.
 
-##📋 Kullanım
+## 📋 Kullanım
 
 Uygulama açıldıktan sonra, aşağıdaki parametreleri kaydırıcılar aracılığıyla ayarlayabilirsiniz:
 
@@ -37,7 +37,7 @@ Uygulama açıldıktan sonra, aşağıdaki parametreleri kaydırıcılar aracıl
 
 Simülasyon tamamlandığında, modelin çıktıları hem grafik hem de tablo olarak görselleştirilir. Aynı zamanda simülasyon sonuçları hakkında açıklamalar da sağlanır.
 
-##📊 Model Açıklamaları
+## 📊 Model Açıklamaları
 
 Simülasyon sonuçları şu anahtar faktörlere dayanır:
 
@@ -46,7 +46,7 @@ Simülasyon sonuçları şu anahtar faktörlere dayanır:
 • Beta (Virüs Yayılma Oranı): Bu değer, virüsün yayılma hızını belirler. Gençler ve yaşlılar için farklı beta değerleri ayarlanabilir.
 • Gamma (İyileşme Oranı): Bu değer, bireylerin ne kadar hızlı iyileşeceğini belirler. Gençler için genellikle daha yüksek, yaşlılar için daha düşük olabilir.
 
-##🔍 Açıklamalar
+## 🔍 Açıklamalar
 
 • Eğer genç nüfusta daha fazla enfekte kişi gözlemleniyorsa, bu genellikle daha hızlı bir yayılma ve gençlerin daha fazla etkileşimde bulunmasından kaynaklanır.
 • Eğer yaşlı nüfusta daha fazla enfekte kişi gözlemleniyorsa, bu durumda yaşlıların daha kırılgan olduğu ve hastalığın yayılmasının daha fazla olduğu düşünülmelidir.
@@ -54,7 +54,7 @@ Simülasyon sonuçları şu anahtar faktörlere dayanır:
 • Eğer gamma (iyileşme oranı) değeri gençler için daha yüksekse, gençler daha hızlı iyileşir; yaşlılar için daha düşükse, yaşlılar daha yavaş iyileşir.
 • Nüfus büyüklüğü arttıkça, hastalık daha uzun süre yayılabilir. Ancak büyük nüfuslar daha fazla doğal bağışıklığa ulaşabilirler. Küçük nüfuslarda enfeksiyon daha hızlı yayılır ve çabuk sona erer.
 
-##🛠️ Requirements / Gereksinimler
+## 🛠️ Requirements / Gereksinimler
 
 To run this app, you need the following Python packages:
 
@@ -64,7 +64,7 @@ To run this app, you need the following Python packages:
 • scipy
 • matplotlib
 
-##🗺️ API
+## 🗺️ API
 
 Streamlit
 EN <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="British Flag" width="20" height="15">
@@ -80,7 +80,7 @@ Bu proje, bulaşıcı hastalıkların yayılmasını simüle etmek için etkile�
 • 📊 *Sonuçları Görüntüleme*: Detaylı sonuçları tablo ve grafiklerde görüntüleyin, yayılma dinamikleri hakkında açıklayıcı yorumlar alın.  
 • ⚙️ *Özelleştirme*: Farklı pandemi senaryolarını simüle etmek için parametreleri özelleştirin ve farklı sonuçları keşfedin.
 
-##👨‍💻 Author / Yazar
+## 👨‍💻 Author / Yazar
 
 • Eren Gökakın
 University of Hacettepe, Department of Statistics
@@ -94,11 +94,5 @@ Projeyi kendi yerel ortamınıza klonlayarak başlamak için şu adımları izle
 # Clone the repository
 git clone https://github.com/erengrealishh/sir-simulation.git
 
-# Navigate to the project directory
-cd sir-simulation
-
-# Install the required dependencies
-pip install -r requirements.txt
-
 # Run the application using Streamlit
-streamlit run app.py
+streamlit run sir_model_sim.py
